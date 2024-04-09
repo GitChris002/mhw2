@@ -1,0 +1,738 @@
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: rgb(34 46 57);
+  font-family: 'Helvetica', sans-serif;
+  z-index: 999;
+   font-weight: bold;
+}
+
+.logo {
+  width: 29px;
+  height: 28.13px;
+}
+
+.Menu {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Menu a {
+  color: rgb(34 46 57);
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.Menu a:hover {
+  color: rgb(255 204 0);
+}
+
+.Iscriviti a {
+  color: #101517;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.Iscriviti a:hover {
+  color: rgb(255 204 0);
+}
+
+.iscrizione:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.Menu p {
+  margin: 0 15px;
+  font-size: 0.9rem;
+}
+
+.Iscriviti {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Iscriviti p {
+  margin: 0 15px;
+}
+
+.iscrizione {
+  background-color: rgb(255 204 0);
+  color: #101517;
+  padding: 10px 20px;
+  margin-right: 45px;
+}
+
+.contenuto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: calc(100vh - 130px);
+  color: white;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  font-weight: bold;
+}
+
+.originale {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.testo {
+  height: 30%;
+  width: 77%;
+  text-align: center;
+  position: relative;
+  top: 4%;
+}
+
+.contenuto h3 {
+  height: 10%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.contenuto
+h2,h3 {
+  height: 36.6%;
+  width: 100%;
+  font-size: 5.1rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.forma {
+  margin-top: 0.2rem;
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Boxabbonamento {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 36%;
+  margin: 7% auto;
+}
+
+.Boxabbonamento1 {
+  width: 30%;
+  height: 97%;
+  padding: 17px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  color: rgb(34 46 57);
+  font-weight: bold;
+  margin: 0 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-left: 20%;
+}
+
+.Abbonamento p {
+  font-size: 1.4rem;
+}
+
+.Abbonamento h3 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.Abbonamento .price {
+  font-size: 2.5rem;
+}
+
+.iscrizione2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255 204 0);
+  padding: 10px 20px;
+  margin-right: 45px;
+}
+
+.iscrizione2:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.Boxabbonamento2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  color: rgb(34 46 57);
+  margin-top: 20px;
+  margin-right: 20%;
+}
+
+.riga1,
+.riga2 {
+  display: flex;
+}
+
+.numer1,
+.numer2,
+.numer3,
+.numer4 {
+  padding: 10px;
+  width: 40%;
+}
+
+.numero {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.Boxabbonamento2 p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.contenuto2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif;
+}
+
+.scelta,
+.Fitness,
+.Scopri {
+  padding-left: 10%; 
+}
+
+.testoimmagine2{
+  display: flex;
+  flex-direction: column ;
+  margin-bottom: 22%;
+  width: 70%;
+}
+
+.Immagine2 {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contenuto2, #contenuto2-extra {
+  width: 100%;
+  height: 100%;
+}
+
+
+#contenuto2-extra {
+  display: flex;
+  flex-direction: row;
+  margin-top: 17%;
+  }
+
+#Immagine-dopo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Immagine4{
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+
+}
+
+.testo-extra{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+  color:whitesmoke;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  margin-bottom: 15%;
+  margin-left: 15%;
+  line-height: 2%;
+}
+
+#testodopo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+#scheda{
+  background-color: rgb(255 204 0);
+  text-align: center;
+  width: 100%;
+}
+
+
+#scheda p{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+
+
+#petto{
+  margin-right: 11%;
+}
+
+#petto h2{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+} 
+
+#pettotesto{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#pettotesto2{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#spalle h2{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+} 
+
+#spalletesto{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#spalletesto2{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+
+#gambe h2{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+} 
+
+#gambetesto{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#gambetesto2{
+  color:#101517;
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif; 
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#indietro{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 81%;
+  margin-left: 20%;
+}
+
+#back p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  padding: 7% 8%;
+  margin-right: -11%;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-size: 0.87rem;
+}
+
+
+#back{
+  width: 29%;
+}
+
+#back p:hover {
+  border: 2px solid rgb(255 204 0);
+  cursor: pointer;
+  color: black; 
+}
+
+
+.hidden{
+  display: none;
+}
+
+.scelta p {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: -20%;
+}
+
+.Fitness p {
+  font-size: 4.3rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.Scopri{
+  width: 19%;
+}
+
+.Scopri p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  padding: 8% 9%;
+  margin-right: -11%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.Scopri p:hover {
+  border: 2px solid rgb(255 204 0);
+  cursor: pointer;
+  color: white; 
+}
+
+
+
+.Boxabbonamento3{
+width: 100%;
+height: 34%;
+}
+
+.testo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.abbonamento2{
+font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif;
+font-size: 1.1rem;
+font-weight: bold;
+color: rgb(34 46 57);
+margin-top: -2%;
+}
+
+.muoviti{
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  color:rgb(34 46 57);
+  margin-top: 1%;
+  margin-bottom: 4%;
+  width: 65%;
+  margin-right: -8%;
+}
+.desc{
+ display: flex;
+ justify-content: center;
+ width: 100%;
+}
+
+.desc p{
+  font-family: 'Font.spring-DEMO-gibson-heavy.otf', sans-serif;
+  font-size: 1.27rem;
+  color:rgb(34 46 57);
+  margin-left: 20%;
+  margin-top: -1%;
+  margin-right: 17%;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.Boxabbonamento4 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 39%;
+  margin: 7% auto;
+}
+
+.Boxabbonamento5 {
+  width: 27%;
+  padding: 2%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  font-weight: bold;
+  color: rgb(34 46 57);
+  margin: 0 5px;
+  box-shadow: 0px 12px 20px  rgba(0, 0, 0, 0.5);
+  margin-left: 14%;
+}
+
+
+.Standard p {
+  font-size: 1.8rem;
+  margin-top: 3%;
+}
+
+.Standard h3 {
+  color: rgb(255 204 0);
+  font-size: 2.8rem;
+  margin-top: -10%;
+}
+
+.Standard .price2 {
+  font-size: 3.4rem;
+}
+
+.mese1,.mese2{
+text-align: center;
+margin-top: -2%;
+margin-bottom: 2%;
+font-size: 1rem;
+font-weight: 200;
+}
+.scopri2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(34 46 57);
+  padding: 13px 45px;
+  margin-top: 8%;
+}
+
+.scopri2:hover {
+  border: 2px solid rgb(255 204 0);
+  cursor: pointer;
+}
+
+.Boxabbonamento6 {
+  width: 27%;
+  padding: 2%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  font-weight: bold;
+  color: rgb(34 46 57);
+  margin: 0 5px;
+  box-shadow: 0px 12px 20px  rgba(0, 0, 0, 0.5);
+  margin-right: 14%;
+}
+
+
+.Flex p {
+  font-size: 1.8rem;
+  margin-top: 3%;
+}
+
+.Flex h3 {
+  color: rgb(255 204 0);
+  font-size: 2.8rem;
+  margin-top: -10%;
+}
+
+.Flex .price3 {
+  font-size: 3.4rem;
+}
+
+.testo3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.testo4{
+  width: 60.67%;
+}
+
+.testo6{
+  font-size: 0.98rem;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  color: rgb(34 46 57);
+  font-weight: 300;
+  line-height: 1.9;
+  margin-bottom: -1%;
+}
+
+.testo7{
+  font-size: 0.98rem;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  color: rgb(34 46 57);
+  font-weight: 300;
+  line-height: 1.9;
+  margin-top: 3%;
+}
+
+.Social{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 51%;
+  margin-top: 5%;
+}
+
+.BoxSocial{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(167,169,172,0.2);
+}
+.Immagine3{
+  width: 72%;
+}
+.BoxSocial a {
+  width: 13%;
+  margin-top: 8%;
+}
+
+
+.BoxSocial a:not(:last-child) {
+  margin-right: -23%;
+}
+
+.social-item p {
+  text-align: center; 
+  margin-right: 27%;
+  color:rgb(34 46 57) ;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+}
+
+.info{
+  width: 100%;
+  height: 47%;
+  margin-top: 6%;
+}
+
+.info a{
+  text-decoration: none;
+  color:rgb(34 46 57) ;
+}
+
+.Infobox{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Infobox1{
+  display: flex;
+  flex-direction: column;
+}
+
+.Infolegale,.Infoassistenza{
+  line-height: 1.7;
+}
+
+.testoinfo{
+  font-size: 1.1rem;
+  color:rgb(34 46 57) ;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+
+}
+
+.Infobox p{
+  font-size: 1.3rem;
+  color:rgb(34 46 57) ;
+  font-family: 'Fontspring-DEMO-gibson-heavy.otf', sans-serif;
+  font-weight: bold;
+}
+
+
+@media  (max-width: 780px) {
+
+  body {
+    font-size: 14px; 
+  }
+  .top {
+    height: auto; 
+    padding: 10px 0;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .Menu {
+    width: 100%; 
+    justify-content: center; 
+    margin-bottom: 10px; 
+  }
+  .iscrizione {
+    margin: 10px 0; 
+  }
+  .contenuto {
+    padding: 20px; 
+  }
+  .Boxabbonamento,
+  .Boxabbonamento4 {
+    flex-direction: column; 
+    align-items: center; 
+  }
+}
+
+
+
+
